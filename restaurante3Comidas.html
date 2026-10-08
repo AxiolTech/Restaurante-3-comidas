@@ -3,23 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restaurante 3 Comidas</title>
+    <title>Restaurante Las Tres Comidas</title>
+    <!-- Se mantiene el enlace al CSS compartido -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
-        <h1>Bienvenido al Restaurante 3 Comidas</h1>
-        <p>Selecciona el turno que deseas consultar:</p>
+        <!-- Título principal movido al cuerpo del documento -->
+        <h1>Restaurante las tres comidas</h1>
+        <nav>
+            <ul>
+                <!-- Enlaces de navegación con anclas funcionales -->
+                <li><a href="#seccion-desayuno">Desayunos</a></li>
+                <li><a href="#seccion-comida">Comidas</a></li>
+                <li><a href="#seccion-cena">Cenas</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <nav>
-        <ul>
-            <!-- Aquí conectas los archivos exactos de tu equipo -->
-            <li><a href="MDesayuno.html">Ver Menú de Desayunos</a></li>
-            <li><a href="RComida.html">Ver Menú de Comidas</a></li>
-            <li><a href="ACena.html">Ver Menú de Cenas</a></li>
-        </ul>
-    </nav>
+    <main>
+        <!-- Bloque de Desayunos -->
+        <section id="seccion-desayuno">
+            <h2>Desayunos (08:00 - 13:00 hrs)</h2>
+            <ol>
+                <li>Chilaquiles: (Bistek/Pollo/Huevo)</li>
+                <li>Hotcakes: (Tocino/Jamon/Huevo)</li>
+                <li>Huevos al gusto: (A la mexicana/Refritos/Rancheros/Omelette)</li>
+            </ol>
+        </section>
+        
+        <!-- Bloque de Comidas -->
+        <section id="seccion-comida">
+            <h2>Menú Comidas (13:00 - 18:00 hrs)</h2>
+            <ol>
+                <li>Pechugas de pollo fritas (Ensalada y puré/Ensalada y papas fritas/papas fritas y puré)</li>
+                <li>Pozole con pollo o cerdo (verde/blanco/rojo)</li>
+                <li>Tacos de Carne (Arrachera/Bistek/Suadero/Tripa)</li>
+                <li>Sopa Azteca con: Tiras de tortilla, Queso(Panela), Aguacate</li>
+                <li>Quesadillas (Queso/Chicharron/Tinga/Panza)</li>
+                <li>Huaraches (bistek/chicharrón/suadero)</li>
+                <li>Gorditas (chicharron, suadero, queso)</li>
+                <li>Caldo de pollo</li>
+            </ol>
+        </section>
+
+        <!-- Bloque de Cenas -->
+        <section id="seccion-cena">
+            <h2>Menú Cena (18:00 - 21:00 hrs)</h2>
+            <ol>
+                <li>Cereal: (Conflakes/Zucaritas/Nesquik)</li>
+                <li>Pan con: (Concha/Dona/Taco de piña)</li>
+                <li>Tacos de Carne (Arrachera/Bistek/Suadero/Tripa)</li>
+            </ol>
+        </section>
+    </main>    
 
 </body>
 </html>
